@@ -1,0 +1,165 @@
+Microsoft Windows [versão 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Dany>composer
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.10.8 2020-06-24 21:23:30
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help                     Display this help message
+  -q, --quiet                    Do not output any message
+  -V, --version                  Display this application version
+      --ansi                     Force ANSI output
+      --no-ansi                  Disable ANSI output
+  -n, --no-interaction           Do not ask any interactive question
+      --profile                  Display timing and memory usage information
+      --no-plugins               Whether to disable plugins.
+  -d, --working-dir=WORKING-DIR  If specified, use the given directory as workin
+g directory.
+      --no-cache                 Prevent use of the cache
+  -v|vv|vvv, --verbose           Increase the verbosity of messages: 1 for norma
+l output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  about                Shows the short information about Composer.
+  archive              Creates an archive of this composer package.
+  browse               Opens the package's repository URL or homepage in your br
+owser.
+  cc                   Clears composer's internal package cache.
+  check-platform-reqs  Check that platform requirements are satisfied.
+  clear-cache          Clears composer's internal package cache.
+  clearcache           Clears composer's internal package cache.
+  config               Sets config options.
+  create-project       Creates new project from a package into given directory.
+  depends              Shows which packages cause the given package to be instal
+led.
+  diagnose             Diagnoses the system to identify common errors.
+  dump-autoload        Dumps the autoloader.
+  dumpautoload         Dumps the autoloader.
+  exec                 Executes a vendored binary/script.
+  fund                 Discover how to help fund the maintenance of your depende
+ncies.
+  global               Allows running commands in the global composer dir ($COMP
+OSER_HOME).
+  help                 Displays help for a command
+  home                 Opens the package's repository URL or homepage in your br
+owser.
+  i                    Installs the project dependencies from the composer.lock
+file if present, or falls back on the composer.json.
+  info                 Shows information about packages.
+  init                 Creates a basic composer.json file in current directory.
+  install              Installs the project dependencies from the composer.lock
+file if present, or falls back on the composer.json.
+  licenses             Shows information about licenses of dependencies.
+  list                 Lists commands
+  outdated             Shows a list of installed packages that have updates avai
+lable, including their latest version.
+  prohibits            Shows which packages prevent the given package from being
+ installed.
+  remove               Removes a package from the require or require-dev.
+  require              Adds required packages to your composer.json and installs
+ them.
+  run                  Runs the scripts defined in composer.json.
+  run-script           Runs the scripts defined in composer.json.
+  search               Searches for packages.
+  self-update          Updates composer.phar to the latest version.
+  selfupdate           Updates composer.phar to the latest version.
+  show                 Shows information about packages.
+  status               Shows a list of locally modified packages, for packages i
+nstalled from source.
+  suggests             Shows package suggestions.
+  u                    Upgrades your dependencies to the latest version accordin
+g to composer.json, and updates the composer.lock file.
+  update               Upgrades your dependencies to the latest version accordin
+g to composer.json, and updates the composer.lock file.
+  upgrade              Upgrades your dependencies to the latest version accordin
+g to composer.json, and updates the composer.lock file.
+  validate             Validates a composer.json and composer.lock.
+  why                  Shows which packages cause the given package to be instal
+led.
+  why-not              Shows which packages prevent the given package from being
+ installed.
+
+C:\Users\Dany>cd C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git init
+Initialized empty Git repository in C:/Users/Dany/Desktop/PHP Udemy/Completo/Pro
+jeto/PHP/.git/
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git add --all
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git commit -m "Aprendendo P
+HP"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Dany@Dany-PC.(none)')
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git config --global user.em
+ail "jun.ferdez.poa@gmail.com"
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git config --global user.em
+ail "juan.ferdez.poa@gmail.com"
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git config --global user.na
+me "Juan Andres"
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git add --all
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git commit -m "Aprendendo P
+HP"
+[master (root-commit) 120633a] Aprendendo PHP
+ 1 file changed, 5 insertions(+)
+ create mode 100644 index.php
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git remote add origin https
+://github.com/juanmello/php.git
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': juan.ferdez.poa@gmail.com
+Password for 'https://juan.ferdez.poa@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/juanmello/php.git/'
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': juan.ferdez.poa@gmail.com
+Password for 'https://juan.ferdez.poa@gmail.com@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/juanmello/php.git/'
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 274 bytes | 91.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/juanmello/php.git
+ * [new branch]      master -> master
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>git init
+
+C:\Users\Dany\Desktop\PHP Udemy\Completo\Projeto\PHP>
+
+
+
+
+git pull origin master
